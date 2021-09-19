@@ -1,0 +1,122 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10133669600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has launched the form page",
+            "match": {
+              "location": "StepDefinition.FormSubmissionStepDefinitions.user_has_launched_the_form_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 46322100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the form is visible",
+            "match": {
+              "location": "StepDefinition.FormSubmissionStepDefinitions.the_form_is_visible()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-19T11:53:43.325Z",
+        "line": 32,
+        "name": "Submitting a form with valid values with page factory",
+        "description": "",
+        "id": "form-submission;submitting-a-form-with-valid-values-with-page-factory",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "user fills the first name with page factory",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "user fills the last name with page factory",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142800,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "user selects the gender with page factory",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "user selects the checkbox with page factory",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@form"
+          },
+          {
+            "name": "@simpleForm"
+          },
+          {
+            "name": "@validFormWithPageFactory"
+          }
+        ]
+      }
+    ],
+    "name": "Form Submission",
+    "description": "",
+    "id": "form-submission",
+    "keyword": "Feature",
+    "uri": "classpath:features/FormSumission.feature",
+    "tags": [
+      {
+        "name": "@form",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@simpleForm",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 7
+        }
+      }
+    ]
+  }
+]
