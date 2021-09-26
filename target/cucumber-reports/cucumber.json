@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10133669600,
+              "duration": 6807462700,
               "status": "passed"
             },
             "line": 5,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 46322100,
+              "duration": 72150600,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +36,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-19T11:53:43.325Z",
+        "start_timestamp": "2021-09-26T05:46:47.552Z",
         "line": 32,
         "name": "Submitting a form with valid values with page factory",
         "description": "",
@@ -46,39 +46,49 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 225956600,
+              "status": "passed"
             },
             "line": 33,
             "name": "user fills the first name with page factory",
-            "match": {},
+            "match": {
+              "location": "StepDefinition.FormSubmissionStepDefinition2.user_fills_the_first_name_with_page_factory()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 237735500,
+              "status": "passed"
             },
             "line": 34,
             "name": "user fills the last name with page factory",
-            "match": {},
+            "match": {
+              "location": "StepDefinition.FormSubmissionStepDefinition2.user_fills_the_last_name_with_page_factory()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 142800,
-              "status": "skipped"
+              "duration": 504200,
+              "status": "passed"
             },
             "line": 35,
             "name": "user selects the gender with page factory",
-            "match": {},
+            "match": {
+              "location": "StepDefinition.FormSubmissionStepDefinition2.user_selects_the_gender_with_page_factory()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 36,
             "name": "user selects the checkbox with page factory",
-            "match": {},
+            "match": {
+              "location": "StepDefinition.FormSubmissionStepDefinition2.user_selects_the_checkbox_with_page_factory()"
+            },
             "keyword": "And "
           }
         ],
